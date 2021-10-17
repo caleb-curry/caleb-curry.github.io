@@ -14,15 +14,18 @@ body {
   margin: 0;
   text-align: center;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }
 #nav-items {
   list-style-type: none;
   padding: 0;
   margin: 0;
   background-color: rgb(45, 45, 45);
-  position: -webkit-sticky;
+  /*position: -webkit-sticky;
   position: sticky;
-  top: 0;
+  top: 0;*/
 }
 
 #nav-item {
@@ -37,6 +40,7 @@ body {
 #nav-item:hover {
   background-color: rgb(30, 30, 30);
   cursor: pointer;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
 #nav-item.dropdown {
@@ -94,6 +98,7 @@ body {
 
 #body-content {
   margin: 10px;
+  padding: .1px;
 }
 
 #footer {
