@@ -37,6 +37,16 @@ body {
   text-decoration: none;
 }
 
+#break {
+  display: inline;
+  text-decoration: none;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+#break:hover {
+  cursor: default;
+}
+
 #nav-item:hover {
   background-color: rgb(30, 30, 30);
   cursor: pointer;
